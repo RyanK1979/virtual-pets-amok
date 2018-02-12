@@ -9,14 +9,14 @@ public class VirtualPetShelterApp {
 		Scanner input = new Scanner(System.in);
 		VirtualPetShelter myShelter = new VirtualPetShelter();
 
-		RoboDog startPet1 = new RoboDog("Aibo", "An amazingly lifelike puppy");
-		myShelter.intake(startPet1);
-		RoboCat startPet2 = new RoboCat("Squeaky", "\"Prior owner didn't oil enough, hence the name\"");
-		myShelter.intake(startPet2);
-		OrganicDog startPet3 = new OrganicDog("Zoey", "\"So sweet, and loving, she will make you fall in love\"");
-		myShelter.intake(startPet3);
-		OrganicCat startPet4 = new OrganicCat("Shadow", "Will be the king of your house, even if only in his mind");
-		myShelter.intake(startPet4);
+		RoboDog defaultPet1 = new RoboDog("Aibo", "An amazingly lifelike puppy");
+		myShelter.intake(defaultPet1);
+		RoboCat defaultPet2 = new RoboCat("Johnny", "\"Keeps claiming hes Johnny 5, and hes alive, weird\"");
+		myShelter.intake(defaultPet2);
+		OrganicDog defaultPet3 = new OrganicDog("Zoey", "\"So sweet, and loving, she will make you fall in love\"");
+		myShelter.intake(defaultPet3);
+		OrganicCat defaultPet4 = new OrganicCat("Shadow", "Will be the king of your house, even if only in his mind");
+		myShelter.intake(defaultPet4);
 
 		startupGame();
 		System.out.println("\nPress Enter to continue");
